@@ -1,6 +1,6 @@
 ## English version
 
-This is a pornographic detector program. 
+This is a pornographic detector console program. 
 
 It integrated with Azure Computer Vision. 
 
@@ -10,7 +10,7 @@ Or you can clone it and implement other function for further checking.
 
 ## Chinese version
 
-這是一個整合了Azure Computer Vision的色情圖片偵測器。
+這是一個整合了Azure Computer Vision的色情圖片偵測器，是console程式。
 
 您可以簡單輸入圖片網址，判斷該圖片是否為色情圖片。
 
