@@ -12,7 +12,7 @@ namespace Porno_Detector
 {
     class Program
     {
-        static string key = "you key";
+        static string key = "your key";
         static string endpoint = "your endpoint";
         static async Task Main(string[] args)
         {
@@ -23,7 +23,7 @@ namespace Porno_Detector
                 Console.WriteLine("請輸入欲分析的圖片URL");
                 var imgUrl = Console.ReadLine();
 
-                if (URLChecker(imgUrl))
+                if (Uri.IsWellFormedUriString(imgUrl, UriKind.Absolute))
                 {
                     await DetectPorn(client, imgUrl);
                 }
